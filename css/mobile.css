@@ -1,0 +1,196 @@
+/* background color for body */
+body{
+    background-color: rgb(246, 244, 241);
+}
+/* Styling container  */
+.container1{ 
+    
+    display: flex; /* displaying flex container  */
+    flex-direction: row; /* items are laid out into a row */
+   
+    
+   }
+   
+   .space{ /* setting width of space container */
+    width:5%;
+   }
+
+   header {
+    
+    background-image: url(../images/lighthouselogo.jpg); /* making image in header */
+    background-size: cover; /* setting image to cover whole container */
+    
+ 
+   height: 150px; /* setting height */
+   background-repeat: no-repeat; /* setting image not to repeat */
+   background-color: rgb(100, 82, 171), 226; /* background color */
+  /* setting padding for image  */
+   padding: 100px; 
+   padding-left: 100px;
+
+   /* Setting margin*/
+   margin: 5px;
+   margin-left: 0;
+  margin-right: 0;
+   
+  width:100%;
+ 
+ 
+  
+   
+ }
+ /* Styling for h1 header */
+ 
+ header h1 {
+     text-align: center; /* centering text in header */
+     /* setting margin */
+     margin: 60px;
+/* setting font type */
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     /* setting font size */
+     font-size: 50px;
+     /* width and margin-top settings */
+     width: 100%;
+     margin-top: 1px;
+     
+    
+     
+ }
+ /* Styling for h1 in main */
+ main section h1 {
+
+     color: rgb(43, 107, 226);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ /* Styling for main*/
+ 
+ main{
+     background-color: white; /* setting background color */
+     width: 160%;
+     margin: 0 auto;
+     padding: 30px;
+    margin-top: -480px;
+     margin-bottom: -900px;
+    margin-left: -350px;
+    padding-bottom: -100px;
+ }
+ 
+ /* settings for container  */
+    .container1{ 
+     
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     min-height: 10vh;
+ 
+    
+     
+     
+    }
+ 
+    
+ 
+    
+    
+    /* width for space container  */
+    .space{
+     width:100px;
+     flex-grow: 1;/* setting flex item to take up space of just 1 */
+    }
+ 
+ 
+ /*adjustments for nav section*/
+    nav {
+     order: -1;
+     justify-content: flex-start;
+     background-color: rgb(150, 150, 208);
+     width: 100%;
+    padding: 10px;
+    padding-bottom: 340px;
+    padding-top: 1px;
+ }
+    
+ 
+ /* Styling for nav unordered list  */
+    nav ul{
+     background-color: rgb(112, 128, 216);/*background color for nav ul list */
+     width:600px; /* width of list  */
+     margin-left: -20px;/* Adjust margin for layout */
+     margin-top: -50px;/* Adjust margin for layout */
+   
+    
+     
+     height: 50%; /* height of unordered list */
+    }
+
+    /* Styling for navigation list items */
+    nav ul li {
+     margin: 15px 20px;
+     padding: 10px;
+    list-style: none;
+    position: relative;
+    
+    
+ 
+    }
+/* Styling for navigation list items on hover */
+    nav ul li:hover {
+     margin: 10px;
+     padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-right: 160px;
+    border-left: 200px;
+   
+
+
+    
+   
+ 
+    } 
+    
+
+ /* Styling for navigation links */
+    nav ul li a {
+     
+     text-decoration: none;
+     color: white;
+     display: block;
+     padding: 1px;
+     text-align:justify;
+     margin-left: -59px;
+    }
+ 
+     /* background color for body */
+    body{
+        background-color: rgb(89, 96, 142);
+    }
+
+
+    
+  .flexcontainer{
+     display: flex; /* make container a flex container */
+     justify-content: flex-end; /* align items along the main axis to the end of container */
+     align-items: flex-start;/* align items along the cross axis to the start of the  container */
+  }
+  /* hide the image in the aside */
+ aside .movedimg{
+ 
+ display: none;
+ 
+ }
+      aside {
+    margin-right: 30px; /* add right margin */
+    margin-top: -380px; /* Adjust top margin to reposition the 'aside' element  */
+    /* padding: -40px; */
+   
+    
+  }
+  /* hide footer element  */
+  footer{
+    display: none;
+  }
+ 

@@ -1,0 +1,182 @@
+/* background color for body */
+body{
+    background-color: rgb(235, 239, 234);
+}
+/* Styling container  */
+.container1{ 
+    
+    display: flex;
+    flex-direction: row;
+   
+    
+   }
+   /* setting width of space container */
+   .space{
+    width:5%;
+   }
+
+   header {
+    
+    background-image: url(../images/lighthouselogo.jpg);  /* making image in header */
+    background-size: cover; /* setting image to cover whole container */
+    width: 100%; /* width of header*/
+   height: 200px; /* height of header*/
+   background-repeat: no-repeat; /* setting image to not repeat */
+   background-color: rgb(100, 82, 171), 226 /* background color in header*/
+   
+ }
+ /* Styling for h1 header */
+ 
+ header h1 {
+     text-align: center; /* centering text in header */
+
+     margin: 60px;  /* setting margin */
+
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* setting font type */
+
+     font-size: 75px;/* font size*/
+
+     width: 90%; /* width of content area  */
+    
+     
+ }
+
+  /* Styling for h1 in main */
+ 
+ main section h1 {
+     color: rgb(43, 107, 226);  /*color of h1 in each section*/
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  /* font style  */
+ }
+
+ 
+ main{
+     background-color: white;  /* setting backgeound color */
+     width: 100%;
+     margin: 0 auto;
+     padding: 30px;
+     margin-left: -95px;
+     margin-right: -100px;
+     margin-top: -38px;
+    
+ }
+   /* settings for container  */
+    .container1{ 
+     
+     display: flex;  /* making container flexible */
+     flex-direction: row;  /* items appear in a row  */
+     justify-content: space-between;  /* making space between items  */
+     align-items: center;  /* aligning items in the center   */
+     min-height: 10vh;  /* settings the height   */
+ 
+    
+     
+     
+    }
+ 
+    
+ 
+    
+    
+     /* width of space container  */
+    .space{
+     width:100px;
+     flex-grow: 1;  /* settings for container  */
+    }
+  /* settings for footer  */
+  footer  {
+     text-align: center;  /* centering text in footer  */
+     width: 100%;  /* width of footer  */
+     margin-top: auto;  /* center element horizantaly within container  */
+     
+     
+    }
+ 
+ 
+    nav {
+     order: -1; /* Set the 'order' property to -1 to move the 'nav' earlier in the visual order */
+
+     justify-content: flex-start; /* Align content along the main axis to the start of the container */
+     background-color: rgb(150, 150, 208); /* Set background color for the 'nav' element */
+     width: fit-content; /* Set the width of the 'nav' element to fit its content */
+    padding: 10px; /* Add padding to the 'nav' element */
+    padding-bottom: 340px;  /* Add additional padding to the bottom of the 'nav' element */
+ }
+    
+ 
+ /* Styling for nav unordered list  */
+    nav ul{
+     background-color: palevioletred; /*background color for nav ul list */
+     width: fit-content; /* Set the width of the 'ul'to fit its content */
+     margin-left: -10px; /* Adjust margin for layout */
+   
+     margin-top: -20px;/* Adjust margin for layout */
+   
+   
+    
+     
+     height: 50%;/* height of ul in nav*/
+   
+    }
+    
+    /* Styling for navigation list items */
+    nav ul li {
+     margin: 15px 20px;
+     padding: 10px;
+    list-style: none;
+    
+    
+ 
+    }
+
+    /* Styling for navigation list items on hover */
+    nav ul li:hover {
+     margin: 10px;
+     padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    
+   
+ 
+    }
+    /* Styling for navigation links */
+    nav ul li a {
+     
+     text-decoration: none;
+     color: white;
+     display: block;
+     padding: 1px;
+     text-align:justify;
+     margin-left: -20px;
+    }
+ /* background color for body*/
+    body{
+        background-color: rgb(89, 96, 142);
+    }
+    
+  .flexcontainer{
+     display: flex; /* make container a flex container */
+     justify-content: flex-end; /* align items along the main axis to the end of container */
+     align-items: flex-start; /* align items along the cross axis to the start of the  container */
+    
+  }
+  
+
+  /* styling for image in aside container */
+
+ aside .movedimg{
+ 
+ margin: right 50px;
+ align-self: flex-start;
+ margin-bottom: -20px;
+ padding: -100px;
+ 
+ }
+      aside {
+    margin-right: 30px;
+    margin-top: -380px;
+    padding: -40px;
+   
+    
+  }
+ 
